@@ -1,0 +1,109 @@
+body {
+    margin: 9% 13%;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: 75px 300px 75px 35px;
+}
+
+score {
+    text-align: center;
+}
+
+header {
+
+    grid-column: 1/4;
+    text-align: center;
+
+}
+
+p1count {
+    padding-left: 65px;
+    text-align: center;
+}
+
+player1 {
+    border: 1px solid grey;
+    grid-row: 2;
+    grid-column: 1/2;
+}
+
+#player1 {
+
+    height: 35px;
+    width: 100px;
+
+}
+
+score {
+    grid-row: 2;
+    grid-column: 2/3;
+}
+
+
+
+p2count {
+    padding-left: 65px;
+    text-align: center;
+}
+
+
+player2 {
+    border: 1px solid grey;
+
+    grid-row: 2;
+    grid-column: 3/4;
+}
+
+
+#player2 {
+
+    height: 35px;
+    width: 100px;
+
+}
+
+options1 {
+    padding: 5px;
+    border: 1px solid grey;
+    display: inline;
+    grid-row: 3;
+    grid-column: 2/3;
+}
+
+
+options2 {
+    padding: 5px;
+    border-right: 1px solid grey;
+    border-bottom: 1px solid grey;
+    grid-row: 3;
+    grid-column: 3/4;
+}
+
+footer {
+    grid-row: 4;
+    grid-column: 1/4;
+    text-align: center;
+}
+
+.font {
+    font-size: 200px;
+    font-weight: bolder;
+}
+
+
+.red {
+    background: red;
+}
+
+.blue {
+    background: cornflowerblue;
+}
+
+.yellow {
+    background: yellow;
+}
+
+
