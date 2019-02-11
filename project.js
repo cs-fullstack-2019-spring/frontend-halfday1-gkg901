@@ -56,6 +56,8 @@ $("#keyboard").click(function () {
             $("p2count").text(y);
 
         }
+        score();
+        winner();
     })
 
 });
